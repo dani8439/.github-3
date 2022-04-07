@@ -23,7 +23,7 @@ There are various ways to get involved. Here are a few suggestions of things we'
 
 #### Resolving existing issues
 
- You can consider helping out with [issues](./issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) already requiring attention.
+ You can consider helping out with issues already requiring attention - look for a "help wanted" label.
 
 #### Reporting issues
 
@@ -48,14 +48,14 @@ We are happy to welcome contributions from anyone willing to improve documentati
   ```
 * Add the upstream source for being able to sync main project changes back into your fork. For example, to configure an upstream remote repository for the `eslint-plugin-jsx-a11y` fork, run:
   ```
-  git remote add upstream git@github.com:jsx-eslint/eslint-plugin-jsx-a11y.git 
-  ```  
+  git remote add upstream git@github.com:jsx-eslint/eslint-plugin-jsx-a11y.git
+  ```
 * Run the tests and the build
   ```
   npm test
-  ``` 
+  ```
 * Make and submit changes to the project source files following our [pull request submission workflow](#pull-requests)
-	
+
 
 ## Pull requests
 
@@ -93,14 +93,14 @@ Push your changes
 git push origin issue1234
 ```
 
-Send the [pull request](https://docs.github.com/en/pull-requests), make requested changes, and get merged 
+Send the [pull request](https://docs.github.com/en/pull-requests), make requested changes, and get merged
 
 ## Commit messages
 
-* Limit the first line of the commit message (message summary) to 72 characters or less  
+* Limit the first line of the commit message (message summary) to 72 characters or less
 * Use the present tense and imperative mood when providing a description of what you did
 * If your PR addresses an issue, reference it in the body of the commit message
-* See the rest of the conventions [here](https://gist.github.com/ljharb/772b0334387a4bee89af24183114b3c7) 
+* See the rest of the conventions [here](https://gist.github.com/ljharb/772b0334387a4bee89af24183114b3c7)
 
 #### Commit message example
 
